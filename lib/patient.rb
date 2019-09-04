@@ -19,7 +19,7 @@ def appointments
   end
 end
 
-def new_appointment(doctor, date)
+def new_appointment(date, doctor)
   Appointment.new(doctor, self, date)
 end
 
