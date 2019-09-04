@@ -24,8 +24,8 @@ def new_appointment(date, patient)
 end
 
 def patients
-binding.pry
   appointments.map do |appointment|
+    binding.pry
     appointment.patient
   end
 end
